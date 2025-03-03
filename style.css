@@ -1,0 +1,230 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    
+}
+body
+{
+  
+    box-sizing: border-box;
+    
+ 
+}
+
+ li a:hover
+{
+  text-decoration:underline rgb(227, 227, 16) 3px;
+  
+}
+p
+{
+    font-size: 28px;
+}
+.home
+
+{    
+    margin-top: 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), 
+    url(imag1.png);
+height: 100vh;
+background-size: cover;
+background-repeat: no-repeat;
+    background-position: center center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.home-text 
+{
+    width: 450px;
+    text-align: center;
+    
+}
+.home-text h1
+{
+    color: aliceblue;
+    font-size: 70px;
+    font-weight: bold;
+    
+}
+
+
+#typing-text {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    white-space: nowrap; 
+    overflow: hidden;
+    border-right: 3px solid white; 
+    display: inline-block;
+    animation: blinkCursor 0.7s infinite;
+    transition-delay: 0.5s;
+    transition-duration: 0.5s;
+}
+
+@keyframes blinkCursor {
+    50% { border-color: transparent; }
+}
+
+h3{
+    position: relative;
+}
+h3::after{
+    content: "";
+    position: absolute;
+    width: 120px;
+    height: 5px;
+    bottom: -10px;
+    left: 0px;
+    background-color: blue;
+}
+.hr
+{
+    height: 5px;
+    background-color: blue;
+    width: 100px;
+   margin-left: 45%;
+}
+.card-text
+{
+    font-size: 20px;
+}
+.icon-container {
+    width: 100px;
+    height: 100px;
+    border: 8px solid orange; 
+    border-radius: 50%; 
+    margin-left: 50px;
+    padding-top: 20px;
+    background-color: white; 
+}
+.container2
+{
+     overflow-x: hidden;
+    text-align: center;
+    padding-left: 140px; 
+    text-align: center;
+ 
+}
+.card-body .icon-container:hover
+{
+   background-color:orange ; 
+}
+.card-body .icon-container
+{
+    transition-duration: 0.5s;
+    transition-duration: 0.5s;
+}
+.card-body svg
+{
+    transition-duration: 0.5s;
+    transition-duration: 0.5s;
+}
+.card-body .icon-container svg:hover
+{
+    transform: scale(1.3);
+}
+.card2-body
+{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+.icon3
+{
+        width: 60px;
+        height: 60px;
+        border: 3px solid rgb(90, 90, 250); 
+        border-radius: 50%; 
+        margin-left: 50px;
+        margin-bottom: 10px;
+        padding-top: 7px;
+        transition-duration: 0.5ms;
+        transition-delay: 0.5ms;
+        background-color: white; 
+    text-align: center;
+}
+.icon3:hover
+{
+    background-color: rgb(47, 47, 219);
+    cursor: pointer;
+}
+
+.card-img-top
+{
+    width: 100%;
+transition: transform 0.5s;
+}
+.card-img-top:hover
+{
+    transform: scale(1.1);
+    
+}
+#carouselExampleIndicators
+{
+    background: linear-gradient(rgba(25, 25, 25, 0.7), rgba(18, 18, 18, 0.521)), 
+    url(imag1.png);
+    height: 390px;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+.carousel-item
+{
+    margin-top: 50px;
+}
+
+.carousel-item img {
+    width: 300px;
+    height: 200px; 
+    object-fit: cover; 
+    margin: auto;
+    display: block;
+    border-radius: 50%;
+}
+
+.car-text
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.carousel-indicators button {
+    width: 10px !important; 
+    height: 10px !important; 
+    border-radius: 50% !important; 
+    background-color: white !important;
+    border: none !important;
+    margin: 3px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    padding: 0 !important;
+    opacity: 0.5 !important;
+    transition: opacity 0.3s ease-in-out, transform 0.2s ease-in-out;
+}
+
+.carousel-indicators .active {
+    opacity: 1 !important;
+    background-color: #f4c10f !important;
+    
+}
+
+
+
+
+
+
+
+
+
+
+.icons-footer
+{
+    display: flex;
+}
